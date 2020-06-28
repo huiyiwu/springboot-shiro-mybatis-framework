@@ -1,6 +1,6 @@
 ### spring-boot+shiro+mybatis API开发使用基础框架
 
->**关于SpringBoot和Shiro的依赖参考**[spring-boot+shiro+jpa集成https://blog.csdn.net/qq_32530561/article/details/106942187](https://blog.csdn.net/qq_32530561/article/details/106942187)
+>**关于SpringBoot和Shiro的依赖参考**[spring-boot+shiro+jpa集成](https://blog.csdn.net/qq_32530561/article/details/106942187)
 #### Mybatis依赖过程
 ##### 添加依赖
 ```xml
