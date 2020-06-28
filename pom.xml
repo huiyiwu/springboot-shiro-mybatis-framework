@@ -8,10 +8,10 @@
   <artifactId>framework</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>springboot-shiro-jpa-framework</name>
+  <name>springboot-shiro-mybatis-framework</name>
   <!-- FIXME change it to the project's website -->
-  <url>springboot-shiro-jpa-framework</url>
-    <description>springboot-shiro-jpa-framework</description>
+  <url>springboot-shiro-mybatis-framework</url>
+    <description>springboot-shiro-mybatis-framework</description>
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -92,6 +92,11 @@
               <groupId>org.mybatis.generator</groupId>
               <artifactId>mybatis-generator-maven-plugin</artifactId>
               <version>1.3.6</version>
+              <!--配置属性-->
+<!--              <configuration>-->
+              <!--默认文件名为generatorConfig.xml,文件名若为其它，需在这里配置-->
+<!--                  <configurationFile>../mgr/src/main/resources/generatorConfig.xml</configurationFile>-->
+<!--              </configuration>-->
               <dependencies>
                   <dependency>
                       <groupId>mysql</groupId>
