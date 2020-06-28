@@ -46,7 +46,7 @@ public class ShiroRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         ShiroAuthToken shiroAuthToken = (ShiroAuthToken) authenticationToken;
-        MUserEntity mUserEntity = shiroService.findUserById(Long.valueOf(shiroAuthToken.getUserId()));
+        MUserEntity mUserEntity = shiroService.findUserById(Integer.parseInt(shiroAuthToken.getUserId()));
         if (mUserEntity == null) {
             throw new UnknownAccountException("用户不存在");
         }

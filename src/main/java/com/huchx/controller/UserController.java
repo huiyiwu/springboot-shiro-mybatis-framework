@@ -3,7 +3,6 @@ package com.huchx.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.huchx.ApiContstants;
 import com.huchx.entity.MUserEntity;
-import com.huchx.security.TokenUtil;
 import com.huchx.security.shiro.ShiroAuthToken;
 import com.huchx.service.UserService;
 import com.huchx.utils.AESUtil;
@@ -12,9 +11,7 @@ import com.huchx.utils.PasswordHelper;
 import com.huchx.utils.ResponseUtils;
 import com.huchx.vo.AddUserVo;
 import org.apache.commons.lang3.StringUtils;
-import org.hibernate.exception.DataException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
